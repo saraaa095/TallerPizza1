@@ -12,5 +12,7 @@ public class Main {
         IngredientesFactory ingredientes = new IngredientesChicago();
         Pizza pizza2 = new Pizza(ingredientes);
         System.out.print(pizza.descripcion());
+        System.out.print(pizza2.descripcion());
+
     }
 }
